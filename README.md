@@ -52,4 +52,5 @@ plt.show()
 
 ### Expected Output
 
+<img width="1937" height="1810" alt="visual_lattice" src="https://github.com/user-attachments/assets/a2778552-58b3-46b4-a16e-242b57695ce9" />
 
