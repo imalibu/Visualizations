@@ -43,8 +43,13 @@ plt.setp(cbar.ax.get_yticklabels(), color='white')
 ax.set_title("Resonant Visual Analytics Lattice", color='white', fontsize=14, fontweight='bold', pad=15)
 ax.axis('off') # Hide axes structural grid for pure design presentation
 
-# Display the rendering
+# 1. ADD THE SAVE LINE HERE (Before showing the plot)
+plt.savefig("visual_lattice.png", dpi=300, bbox_inches='tight', facecolor='#0D1117')
+
+# 2. Keep this last so it still pops up on your screen when you run it locally
 plt.show()
 ```
 
 ### Expected Output
+
+
